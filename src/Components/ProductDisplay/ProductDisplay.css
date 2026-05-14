@@ -1,0 +1,150 @@
+
+
+/* MAIN CONTAINER */
+.productdisplay {
+    display: flex;
+    gap: 60px;
+    padding: 40px 80px;
+}
+
+/* LEFT SIDE */
+.productdisplay-left {
+    display: flex;
+    gap: 20px;
+}
+
+/* Thumbnail images */
+.productdisplay-img-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.productdisplay-img-list img {
+    width: 80px;
+    height: 100px;
+    object-fit: cover;          /* thumbnail perfect */
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Main image container */
+.productdisplay-img {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+}
+
+/* Main image */
+.productdisplay-main-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;        /* 👈 no stretch */
+}
+
+/* RIGHT SIDE */
+.productdisplay-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.productdisplay-right h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* STAR SECTION */
+.productdisplay-right-star {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.productdisplay-right-star img {
+    width: 18px;
+    height: 18px;
+}
+
+/* rating text */
+.productdisplay-right-star span {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* PRICES */
+.productdisplay-right-prices {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.productdisplay-right-price-old {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.productdisplay-right-price-new {
+    color: #ff4141;
+    font-weight: 600;
+}
+
+/* DESCRIPTION */
+.productdisplay-right-description {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* SIZE SECTION */
+.productdisplay-right-size h1 {
+    font-size: 18px;
+}
+
+.productdisplay-right-sizes {
+    display: flex;
+    gap: 10px;
+}
+
+.productdisplay-right-sizes div {
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.productdisplay-right-sizes div:hover {
+    border-color: #ff4141;
+}
+
+/* BUTTON */
+.productdisplay-right button {
+    width: 200px;
+    height: 45px;
+    background: #ff4141;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.productdisplay-right button:hover {
+    background: #e63636;
+}
+
+/* CATEGORY */
+.productdisplay-right-category {
+    font-size: 14px;
+    color: #555;
+}
+
+.productdisplay-right-category span {
+    font-weight: 600;
+}

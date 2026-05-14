@@ -1,0 +1,23 @@
+
+.breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 60px ;
+    text-transform: capitalize;
+    flex-wrap: wrap; /* mobile ma break thai sake */
+}
+
+.breadcrum span {
+    color: #555;
+}
+
+.breadcrum img {
+    width: 12px;
+    height: 12px;
+}
+
+
